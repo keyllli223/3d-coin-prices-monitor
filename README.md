@@ -25,3 +25,11 @@ Powered by  [Gelato Web3 Functions](https://beta.app.gelato.network/)
 - React
 - BabylonJs - 3d engine js library
 - ethers.js - ethereum api js library
+
+---
+
+## How to run and test the project?
+
+- Web3 Function code here: `/gelato-web3-function/index.ts` . How to deploy ? See here: https://docs.gelato.network/developer-services/web3-functions/deploying-web3-functions
+- Smart contract code: `contract/contract.sol`
+- Install all packages of react app with `yarn install` command. Rename `env.txt` file to `.env` and insert the address of deployed contract [polygon mumbai]
