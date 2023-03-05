@@ -12,6 +12,14 @@ Powered by  [Gelato Web3 Functions](https://beta.app.gelato.network/)
 
 ----
 
+## How it works ?
+
+- The smart contract stores the info about added coins like price and the last update timestamp. [like an oracle]
+- Only the contract owner can add new coins.
+- Was created a web3 function on gelato [https://beta.app.gelato.network/] that updates the coins prices every 30 minutes. [the price from coingecko]
+
+----
+
 ## Tech stack:
 
 - React
